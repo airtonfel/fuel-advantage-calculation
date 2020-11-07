@@ -4,11 +4,18 @@ html {
     color: #FEF9EF;
 }
 
-P {
-    color: #FEF9EF;
-    font-weight: 700;
-    font-size: large;
-}
+.description p {
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 70%;
+        padding: 1.3rem 0;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+    }
 
 input[type=text] {
     border: 2px solid #FE6D73;
