@@ -2,16 +2,20 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Calculadora Flex</title>
+    <title>Fuel Advantage</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Qual Combustível?</h1>
-    <h4>Calcule a vantagem entre os tipos de combustível: Etanol e Gasolina</h4>
-    <p>Digite os preços nos espaços abaixo e clique em "Vantagem" para calcular</p>
+    <h2>Calcule a vantagem entre os tipos de combustível: Etanol e Gasolina</h2>
+    <p>Esse app tem o objetivo de auxiliar motoristas e demais usuários a calcular qual combustível é mais vantajoso em relação ao preço/l.</p>
     <form name="frmFlex">
-        <input type="text" placeholder="Etanol" size="8" name="txtEtanol"> x
-        <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
-        <input type="button" value="Vantagem" onclick="calcular()">    
+        Digite o preço do ETANOL:<br>
+        <input type="text" placeholder="Etanol" size="8" name="txtEtanol"><br>
+        Digite o preço da GASOLINA:<br>
+        <input type="text" placeholder="Gasolina" size="8" name="txtGasolina"><br>
+        <input type="button" value="Calcular" onclick="calcular()">    
     </form>
     <script src="script.js"></script>
 </body>

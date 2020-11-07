@@ -1,0 +1,24 @@
+html {
+    background-color: #227C9D;
+    font-family: 'Titillium Web', sans-serif;
+    color: #FEF9EF;
+}
+
+P {
+    color: #FEF9EF;
+    font-weight: 700;
+    font-size: large;
+}
+
+input[type=text] {
+    border: 2px solid #FE6D73;
+    border-radius: 4px;
+    font-size: larger;
+  }
+
+input[type=button] {
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: larger;
+}
+
